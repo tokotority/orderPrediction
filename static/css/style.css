@@ -1,0 +1,42 @@
+html {
+    background: url(/static/img/back.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  body {
+    background: none;
+  }
+  span {
+    color: white;
+    background: transparent;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+  }
+  .container {
+    text-align: center;
+    margin-top: 180px;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.7); /* Change the background to a semi-transparent black */
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add a white glow around the container */
+    transition: all 0.5s ease; /* Add a transition effect for any changes */
+  }
+  
+  .container:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Increase the glow when hovering */
+  }
+  
+  h1 {
+    color: #ff0000; /* Change the color to red */
+    font-family: "Courier New", Courier, monospace; /* Keep the font as Courier New */
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.7); /* Add a red glow around the text */
+    animation: blink 2s linear infinite; /* Increase the duration of the blinking animation to 2 seconds */
+  }
+  
+  @keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0.5;} /* Decrease the range of opacity change to 0.5 */
+    100% {opacity: 1;}
+  }
